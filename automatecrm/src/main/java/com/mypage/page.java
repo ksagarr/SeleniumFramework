@@ -50,7 +50,7 @@ public abstract class page {
 	{
 			
 				try {
-					return pageClass.getDeclaredConstructor(WebDriver.class,WebDriverWait.class).newInstance(driver,wait);
+					return pageClass.getDeclaredConstructor(WebDriver.class).newInstance(driver);
 				} catch (InstantiationException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

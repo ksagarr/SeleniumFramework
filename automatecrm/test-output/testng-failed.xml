@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.myest.LoginTest">
+      <class name="com.myest.AddNewCompanyTest">
         <methods>
-          <include name="validateLoginPageTitle"/>
           <include name="setUpTest"/>
+          <include name="AddCompany"/>
         </methods>
-      </class> <!-- com.myest.LoginTest -->
+      </class> <!-- com.myest.AddNewCompanyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
