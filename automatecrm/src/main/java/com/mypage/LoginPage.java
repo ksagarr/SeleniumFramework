@@ -12,7 +12,7 @@ public class LoginPage extends BaseClass {
     private By username=By.name("username");
     private By password=By.name("password");
     private By login=By.xpath("//input[@value=\"Login\"]");
-    private By ValidUser=By.xpath("//td[@class=\"headertable\"]//td[@align=\"left\"]");
+    private By userTitle=By.xpath("//td[contains(text(),' suraj ')]");
 	readConfig rd = new readConfig();
 	public LoginPage(WebDriver driver) {
 		super(driver);
@@ -28,9 +28,10 @@ public class LoginPage extends BaseClass {
 	public WebElement getLogin() {
 		return  getElement(login);
 	}
-	public WebElement getValidUser() 
+	public boolean LoginPageTitle()
 	{
-		return getElement(ValidUser);
+		driver.switchTo().frame("mainpanel");
+		return GetDisplay(userTitle);
 	}
 	public void DoLogin()
 	{
@@ -39,10 +40,7 @@ public class LoginPage extends BaseClass {
 		getLogin().click();
 	}
 	
-	public String validateUserName()
-	{
-		return getValidUser().toString();
-	}
+	
 
 
 	

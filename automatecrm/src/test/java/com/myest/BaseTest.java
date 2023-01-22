@@ -7,7 +7,8 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
+
 
 import com.mypage.BaseClass;
 import com.mypage.page;
@@ -22,10 +23,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 
 	WebDriver driver;
-	page pg;
+	public page pg;
 	readConfig rd = new readConfig();
 	String browser=rd.getBroser();
-	@BeforeMethod
+	@BeforeClass
 	public void setUpTest()
 	{
 		if(browser.equals("chrome")) {

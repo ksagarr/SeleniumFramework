@@ -1,4 +1,5 @@
 package com.mypage;
+import java.lang.reflect.InvocationTargetException;
 import java.time.Duration;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -43,15 +44,34 @@ public abstract class page {
 	
 	public abstract void MouseMoveOver(WebElement element);
 	
+	public abstract boolean GetDisplay(By Locator);
+	
 	public <Tpage extends BaseClass> Tpage getInstance(Class<Tpage> pageClass) 
 	{
-		try {
-			return pageClass.getDeclaredConstructor(WebDriver.class,WebDriverWait.class).newInstance(this.driver,this.wait);
-		}catch (Exception e) {
-			e.printStackTrace();
+			
+				try {
+					return pageClass.getDeclaredConstructor(WebDriver.class,WebDriverWait.class).newInstance(driver,wait);
+				} catch (InstantiationException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IllegalAccessException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IllegalArgumentException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (InvocationTargetException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (NoSuchMethodException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (SecurityException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				return null;
 		
-		}
-		return null;
-	}
 	
+	}	
 }

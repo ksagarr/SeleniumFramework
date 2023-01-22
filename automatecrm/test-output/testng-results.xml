@@ -1,87 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-22T01:29:02 IST" name="Default suite" finished-at="2023-01-22T01:29:32 IST" duration-ms="30251">
+  <suite started-at="2023-01-23T00:39:34 IST" name="Default suite" finished-at="2023-01-23T00:40:06 IST" duration-ms="31957">
     <groups>
     </groups>
-    <test started-at="2023-01-22T01:29:02 IST" name="Default test" finished-at="2023-01-22T01:29:32 IST" duration-ms="30251">
-      <class name="com.myest.AddNewCompanyTest">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.myest.AddNewCompanyTest@4562e04d]" started-at="2023-01-22T01:29:02 IST" name="setUpTest" finished-at="2023-01-22T01:29:18 IST" duration-ms="15476" status="PASS">
+    <test started-at="2023-01-23T00:39:34 IST" name="Default test" finished-at="2023-01-23T00:40:06 IST" duration-ms="31957">
+      <class name="com.myest.LoginTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.myest.LoginTest@639c2c1d]" started-at="2023-01-23T00:39:34 IST" name="setUpTest" finished-at="2023-01-23T00:39:49 IST" duration-ms="15428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="AddCompany()[pri:0, instance:com.myest.AddNewCompanyTest@4562e04d]" started-at="2023-01-22T01:29:18 IST" name="AddCompany" finished-at="2023-01-22T01:29:32 IST" duration-ms="14676" status="FAIL">
-          <exception class="org.openqa.selenium.JavascriptException">
-            <message>
-              <![CDATA[javascript error: Cannot read properties of null (reading 'querySelectorAll')
-  (Session info: chrome=109.0.5414.75)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f51f72401571d8590b14f74f475d6c21, executeScript {script=return document.querySelector(".mlddm").querySelectorAll("li")[6], args=[]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ksagar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53342/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f51f72401571d8590b14f74f475d6c21]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Cannot read properties of null (reading 'querySelectorAll')
-  (Session info: chrome=109.0.5414.75)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f51f72401571d8590b14f74f475d6c21, executeScript {script=return document.querySelector(".mlddm").querySelectorAll("li")[6], args=[]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ksagar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53342/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f51f72401571d8590b14f74f475d6c21
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:472)
-at com.mypage.Navigation.ClickOnNewCompany(Navigation.java:37)
-at com.myest.AddNewCompanyTest.AddCompany(AddNewCompanyTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.JavascriptException -->
+        <test-method signature="GetLoginIntoAccount()[pri:1, instance:com.myest.LoginTest@639c2c1d]" started-at="2023-01-23T00:39:49 IST" name="GetLoginIntoAccount" finished-at="2023-01-23T00:40:06 IST" duration-ms="16311" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddCompany -->
-      </class> <!-- com.myest.AddNewCompanyTest -->
+        </test-method> <!-- GetLoginIntoAccount -->
+        <test-method signature="validateLoginPageTitle()[pri:2, instance:com.myest.LoginTest@639c2c1d]" started-at="2023-01-23T00:40:06 IST" name="validateLoginPageTitle" finished-at="2023-01-23T00:40:06 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitle -->
+      </class> <!-- com.myest.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -119,6 +119,12 @@ public class BaseClass extends page {
 		
 	}
 
+	@Override
+	public boolean GetDisplay(By Locator) {
+	
+		return getElement(Locator).isDisplayed();
+	}
+
 	
 
 }
