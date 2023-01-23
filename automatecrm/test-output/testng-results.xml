@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-23T01:09:42 IST" name="Default suite" finished-at="2023-01-23T01:10:15 IST" duration-ms="32408">
+  <suite started-at="2023-01-23T14:08:02 IST" name="Default suite" finished-at="2023-01-23T14:08:51 IST" duration-ms="48875">
     <groups>
     </groups>
-    <test started-at="2023-01-23T01:09:42 IST" name="Default test" finished-at="2023-01-23T01:10:15 IST" duration-ms="32408">
-      <class name="com.myest.AddNewCompanyTest">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.myest.AddNewCompanyTest@515c6049]" started-at="2023-01-23T01:09:42 IST" name="setUpTest" finished-at="2023-01-23T01:09:54 IST" duration-ms="11377" status="PASS">
+    <test started-at="2023-01-23T14:08:02 IST" name="Default test" finished-at="2023-01-23T14:08:51 IST" duration-ms="48875">
+      <class name="com.myest.CreateNewCompanyTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.myest.CreateNewCompanyTest@1d296da]" started-at="2023-01-23T14:08:02 IST" name="setUpTest" finished-at="2023-01-23T14:08:20 IST" duration-ms="18023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="AddCompany()[pri:0, instance:com.myest.AddNewCompanyTest@515c6049]" started-at="2023-01-23T01:09:54 IST" name="AddCompany" finished-at="2023-01-23T01:10:15 IST" duration-ms="20961" status="PASS">
+        <test-method is-config="true" signature="dologinclicknav()[pri:0, instance:com.myest.CreateNewCompanyTest@1d296da]" started-at="2023-01-23T14:08:20 IST" name="dologinclicknav" finished-at="2023-01-23T14:08:43 IST" duration-ms="23108" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddCompany -->
-      </class> <!-- com.myest.AddNewCompanyTest -->
+        </test-method> <!-- dologinclicknav -->
+        <test-method signature="verifyTaskPageTitle()[pri:1, instance:com.myest.CreateNewCompanyTest@1d296da]" started-at="2023-01-23T14:08:43 IST" name="verifyTaskPageTitle" finished-at="2023-01-23T14:08:43 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskPageTitle -->
+        <test-method signature="addInfoInTask()[pri:2, instance:com.myest.CreateNewCompanyTest@1d296da]" started-at="2023-01-23T14:08:43 IST" name="addInfoInTask" finished-at="2023-01-23T14:08:51 IST" duration-ms="7633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInfoInTask -->
+      </class> <!-- com.myest.CreateNewCompanyTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

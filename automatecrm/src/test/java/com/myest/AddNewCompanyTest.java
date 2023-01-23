@@ -1,8 +1,7 @@
 package com.myest;
 
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 
+import org.testng.annotations.Test;
 import com.mypage.CreateNewCompany;
 import com.mypage.LoginPage;
 import com.mypage.Navigation;

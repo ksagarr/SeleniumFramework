@@ -44,7 +44,7 @@ public class Navigation extends BaseClass{
 	  	MouseMoveOver
 	    (wait.until(ExpectedConditions.visibilityOfElementLocated(newcompany)));
 	  	getAddtask().click();
-	  	return new CreateNewCompany();
+	  	return new CreateNewCompany(driver);
 	}
 
 
