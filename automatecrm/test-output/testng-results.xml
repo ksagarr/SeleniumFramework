@@ -2,28 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-23T14:08:02 IST" name="Default suite" finished-at="2023-01-23T14:08:51 IST" duration-ms="48875">
+  <suite started-at="2023-01-24T23:49:15 IST" name="Suite" finished-at="2023-01-24T23:51:34 IST" duration-ms="138814">
     <groups>
     </groups>
-    <test started-at="2023-01-23T14:08:02 IST" name="Default test" finished-at="2023-01-23T14:08:51 IST" duration-ms="48875">
-      <class name="com.myest.CreateNewCompanyTest">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.myest.CreateNewCompanyTest@1d296da]" started-at="2023-01-23T14:08:02 IST" name="setUpTest" finished-at="2023-01-23T14:08:20 IST" duration-ms="18023" status="PASS">
+    <test started-at="2023-01-24T23:49:15 IST" name="Test" finished-at="2023-01-24T23:51:34 IST" duration-ms="138814">
+      <class name="com.myest.LoginTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.myest.LoginTest@6b2ea799]" started-at="2023-01-24T23:49:16 IST" name="setUpTest" finished-at="2023-01-24T23:51:03 IST" duration-ms="106834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method is-config="true" signature="dologinclicknav()[pri:0, instance:com.myest.CreateNewCompanyTest@1d296da]" started-at="2023-01-23T14:08:20 IST" name="dologinclicknav" finished-at="2023-01-23T14:08:43 IST" duration-ms="23108" status="PASS">
+        <test-method signature="GetLoginIntoAccount()[pri:1, instance:com.myest.LoginTest@6b2ea799]" started-at="2023-01-24T23:51:04 IST" name="GetLoginIntoAccount" finished-at="2023-01-24T23:51:33 IST" duration-ms="29855" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dologinclicknav -->
-        <test-method signature="verifyTaskPageTitle()[pri:1, instance:com.myest.CreateNewCompanyTest@1d296da]" started-at="2023-01-23T14:08:43 IST" name="verifyTaskPageTitle" finished-at="2023-01-23T14:08:43 IST" duration-ms="46" status="PASS">
+        </test-method> <!-- GetLoginIntoAccount -->
+        <test-method signature="validateLoginPageTitle()[pri:2, instance:com.myest.LoginTest@6b2ea799]" started-at="2023-01-24T23:51:34 IST" name="validateLoginPageTitle" finished-at="2023-01-24T23:51:34 IST" duration-ms="683" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTaskPageTitle -->
-        <test-method signature="addInfoInTask()[pri:2, instance:com.myest.CreateNewCompanyTest@1d296da]" started-at="2023-01-23T14:08:43 IST" name="addInfoInTask" finished-at="2023-01-23T14:08:51 IST" duration-ms="7633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addInfoInTask -->
-      </class> <!-- com.myest.CreateNewCompanyTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- validateLoginPageTitle -->
+      </class> <!-- com.myest.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
