@@ -1,6 +1,6 @@
 
 # Selenim FrameWork(Hybrid With POM)
-A brief description of what this project does and who it's for
+A brief description of what this project.
 
 The Hybrid Framework with page object model is focus on seperating test cases and taest case data from each other.Our famework mainly based on oops concept(Object Oriented Programming) like Abstraction, Encapsulation, Polymorphism, Inheritance,Intraface.
 This Framework significantly reduce the test script/code and increase readability.The main important thing is any one can modify this code according him becuase it is maintainable and reusable.
