@@ -51,8 +51,8 @@ Core Java, Servlets&JSP,Basic Css,Basic Javascript, html,Rest Api,Rest Assured,P
 
 
 ## Optimizations
-It is increase readability code and easy to modify or maintenance.
-It is very helpful for regrassion and intigration testing.
+It increases readability of code and is easy to modify or maintain.
+It is very helpful for regression and intigration testing.
 It is very helpful for sanity and smoke testing.
 
 
