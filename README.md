@@ -1,8 +1,8 @@
 
 # Selenim FrameWork(Hybrid With POM)
-A brief description of what this project.
+A brief description of this project is as below.
 
-The Hybrid Framework with page object model is focus on separating test cases and test case data from each other. Our framework mainly based on oops concept (Object Oriented Programming) like Abstraction, Encapsulation, Polymorphism, Inheritance and Interface. This Framework significantly reduce the test script/code and increase readability. The main important thing is anyone can modify this code according him because it is maintainable and reusable.
+The Hybrid Framework with page object model is focused on separating test cases and test case data from each other. Our framework is mainly based on oops concept (Object Oriented Programming) like Abstraction, Encapsulation, Polymorphism, Inheritance and Interface. This Framework significantly reduces the test script/code and increases readability. The main important thing is that anyone can modify this code according to him because it is maintainable and reusable.
 
 ## Documentation
 Java Api Documentation(https://docs.oracle.com/javase/8/docs/api/)
@@ -13,13 +13,13 @@ DOM documentation(https://www.w3schools.com/js/js_htmldom_document.asp)
 
 ## Features
 
-- Every WebElement consider as separate class or page.
+- Every WebElement considered as separate class or page.
 - Test Ng Annotation used for test execution.
 - It generates Extent reports with all the step details.
 - Easy integration to CI/CD pipeline.
 - It generates test execution log file.
 - Framework uses Page Object Design Pattern, hence there is clean separation between test code and page specific code such as locators and layout.
-- It will be captured screenshot if test case get failed.
+- It will capture screenshot if test case fails.
 
 
 ## Installation
